@@ -48,7 +48,7 @@
 [CmdletBinding()]
 param(
     # comma- or semicolon-separated list of Chocolatey packages.
-    [string] $PackageList = "jenkins-2.46.3.zip.install",
+    [string] $PackageList = "jenkins",
     [Parameter(ParameterSetName='CustomUser')]
     [string] $UserName = 'artifactInstaller',
     [Parameter(ParameterSetName='CustomUser')]
